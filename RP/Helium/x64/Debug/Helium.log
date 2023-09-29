@@ -1,0 +1,3 @@
+﻿  read csv.cpp
+D:\RP\MCCI_LoRaWAN_LMIC_library-4.1.0\MCCI_LoRaWAN_LMIC_library-4.1.0\src\lmic\hal.h(136,57): warning C4180: qualifier applied to function type has no meaning; ignored
+  Helium.vcxproj -> D:\RP\Helium\x64\Debug\Helium.exe

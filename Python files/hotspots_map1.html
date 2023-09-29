@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9c55c988c677e293031bfc6a1e24876e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9c55c988c677e293031bfc6a1e24876e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9c55c988c677e293031bfc6a1e24876e = L.map(
+                "map_9c55c988c677e293031bfc6a1e24876e",
+                {
+                    center: [35.85651547972094, -78.84492274671803],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0e0cea1c9c273ddaae1a009195b49661 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9c55c988c677e293031bfc6a1e24876e);
+        
+    
+            var marker_7f48d1373dcc187f33a506640cde53ac = L.marker(
+                [35.85651547972094, -78.84492274671803],
+                {}
+            ).addTo(map_9c55c988c677e293031bfc6a1e24876e);
+        
+    
+            var icon_c022e9b1616d5587b1fd032dab289233 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7f48d1373dcc187f33a506640cde53ac.setIcon(icon_c022e9b1616d5587b1fd032dab289233);
+        
+    
+        var popup_d1c697d673ff1945230dac9de3d7e077 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19d9f762eacd68f10897fbcddf1e6842 = $(`<div id="html_19d9f762eacd68f10897fbcddf1e6842" style="width: 100.0%; height: 100.0%;">Sensor</div>`)[0];
+                popup_d1c697d673ff1945230dac9de3d7e077.setContent(html_19d9f762eacd68f10897fbcddf1e6842);
+            
+        
+
+        marker_7f48d1373dcc187f33a506640cde53ac.bindPopup(popup_d1c697d673ff1945230dac9de3d7e077)
+        ;
+
+        
+    
+    
+            var circle_marker_e02c5bd4770db761d00433c9990d0d85 = L.circleMarker(
+                [35.85651547972094, -78.84492274671803],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 135.73998639850552, "stroke": true, "weight": 3}
+            ).addTo(map_9c55c988c677e293031bfc6a1e24876e);
+        
+    
+            var marker_d6051d4a9bf5b0d573541ab88c347a42 = L.marker(
+                [35.85245903, -78.84599908],
+                {}
+            ).addTo(map_9c55c988c677e293031bfc6a1e24876e);
+        
+    
+        var popup_754c738d69a9b90d1411715f3af009c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_865ad77c71727fef23d8f8b653c64bdc = $(`<div id="html_865ad77c71727fef23d8f8b653c64bdc" style="width: 100.0%; height: 100.0%;">Name: funny-jetblack-finch Distance: 0.46 km Loss: 131.58 dB</div>`)[0];
+                popup_754c738d69a9b90d1411715f3af009c4.setContent(html_865ad77c71727fef23d8f8b653c64bdc);
+            
+        
+
+        marker_d6051d4a9bf5b0d573541ab88c347a42.bindPopup(popup_754c738d69a9b90d1411715f3af009c4)
+        ;
+
+        
+    
+    
+            var circle_marker_5b53fa60cba709899d99f1e1586463fd = L.circleMarker(
+                [35.85245903, -78.84599908],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 139.99965749557626, "stroke": true, "weight": 3}
+            ).addTo(map_9c55c988c677e293031bfc6a1e24876e);
+        
+    
+            var marker_ed9e5e53f53d12855bf8257472bb4e81 = L.marker(
+                [35.85385978, -78.84694557],
+                {}
+            ).addTo(map_9c55c988c677e293031bfc6a1e24876e);
+        
+    
+        var popup_23147e8ae99fde300f266557efdaac10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e5057fcf5884566896d1328d126d110 = $(`<div id="html_1e5057fcf5884566896d1328d126d110" style="width: 100.0%; height: 100.0%;">Name: huge-pastel-bee Distance: 0.35 km Loss: 126.27 dB</div>`)[0];
+                popup_23147e8ae99fde300f266557efdaac10.setContent(html_1e5057fcf5884566896d1328d126d110);
+            
+        
+
+        marker_ed9e5e53f53d12855bf8257472bb4e81.bindPopup(popup_23147e8ae99fde300f266557efdaac10)
+        ;
+
+        
+    
+    
+            var circle_marker_5ba4523a3dec3cef6495e64f5de6a700 = L.circleMarker(
+                [35.85385978, -78.84694557],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 105.30719709166621, "stroke": true, "weight": 3}
+            ).addTo(map_9c55c988c677e293031bfc6a1e24876e);
+        
+</script>
+</html>
